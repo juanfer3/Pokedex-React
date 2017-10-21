@@ -2,15 +2,13 @@
  *Module dependencies
  */
 import React from 'react';
-import PokeTable from './components/PokeTable';
+import PokeApp from './components/PokeApp';
 
-var pokemons = [
-  {number:1, name: 'Bulbasaur'},
-  {number:7, name: 'Ivysaur'},
-  {number:4, name: 'Venusaur'}
-];
+
+
+
 
 React.render(
-  <PokeTable pokemons={pokemons} />,
+  <PokeApp/>,
   document.getElementById('container')
 );
